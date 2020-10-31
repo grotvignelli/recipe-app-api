@@ -98,5 +98,3 @@ class PrivateIngredientApiTests(TestCase):
         res = self.client.post(INGREDIENT_URL, payload)
 
         self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
-
-# TODO : 14 - CREATE RECIPE ENDPOINT
